@@ -1,3 +1,4 @@
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -9,17 +10,7 @@ function App() {
   return (
     <div className="App">
       <div className="content">
-        <h1>{ title }</h1>
-        <p>liked { likes } times</p>
-
-        {/* <p>{ person }</p> */}
-
-        <p>{ 10 }</p>
-        <p>{ 'Hello world! ' }</p>
-        <p>{ [1, 2, 3, 4, 5] }</p>
-        <p>{ Math.random() * 10 }</p>
-        
-        <a href={ link }>Linkedin Profile</a>
+        <h1>App component</h1>
       </div>
     </div>
   );
