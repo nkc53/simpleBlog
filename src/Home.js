@@ -1,21 +1,19 @@
-import { click } from "@testing-library/user-event/dist/click";
+import { useState } from "react";
 
 const Home = () => {
+    // let name = 'Mario';
+    const [name, setName] = useState('Mario');
+    const [age, setAge] = useState(25);
 
-    const handleClick = (e) => {
-        console.log('Hello, this is the event for clicking the ', e);
+    const handleClick = () => {
+        setName('Luigi');
     }
-
-    const handleCLickAgain = (name, e) => {
-        console.log('Hello, ' + name, e.target);
-    }
-
 
     return (  
         <div className="home">
             <h2>Homepage</h2>
+            <p>{ name } is { age } years old.</p>
             <button onClick={handleClick}>Click me</button>
-            <button onClick={(e) => handleCLickAgain('Mario', e)}>Click Me Again!</button>
         </div>
     );
 }
