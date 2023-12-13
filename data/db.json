@@ -19,16 +19,16 @@
       "id": 4
     },
     {
-      "title": "Bloggington 3000",
-      "body": "This is a new blog",
-      "author": "yoshi",
-      "id": 5
-    },
-    {
       "title": "hello ninjas",
       "body": "sdasdsafasfsa",
       "author": "yoshi",
       "id": 6
+    },
+    {
+      "title": "Bloggington 5000",
+      "body": "This is a blog!",
+      "author": "yoshi",
+      "id": 7
     }
   ]
 }
