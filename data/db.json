@@ -29,6 +29,12 @@
       "body": "This is a new blog",
       "author": "yoshi",
       "id": 5
+    },
+    {
+      "title": "hello ninjas",
+      "body": "sdasdsafasfsa",
+      "author": "yoshi",
+      "id": 6
     }
   ]
 }
